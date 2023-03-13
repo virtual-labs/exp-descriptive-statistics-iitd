@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skewness | statsVL</title>
+    <link rel="stylesheet" href="../descriptive.css" />
+    <link rel="stylesheet" href="../../../styles/animation.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script src="../../../Scripts/stats.js"></script>
+
+
+    <script
+      src="https://kit.fontawesome.com/fa99256fbe.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="../script.js"></script>
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="main-grid-item">
+        <header>
+          <div class="animation-underline">
+            <div class="inline-flex-container">
+              <h4>
+                <a
+                  class="descrip button mean"
+                  href="../mean/mean.html"
+                >
+                  Mean
+                </a>
+              </h4>
+              <h4>
+                <a
+                  class="descrip button median"
+                  href="../median/median.html"
+                >
+                  Median
+                </a>
+              </h4>
+              <h4>
+                <a
+                  class="descrip button mode"
+                  href="../mode/mode.html"
+                >
+                  Mode
+                </a>
+              </h4>
+              <h4>
+                <a
+                  class="descrip button range"
+                  href="../range/range.html"
+                >
+                  Range
+                </a>
+              </h4>
+              <!-- <h4>
+                <a
+                  class="descrip button moments"
+                  href="/Experiments/Descriptive/moments/moments.html"
+                >
+                  Moments
+                </a>
+              </h4> -->
+              <h4>
+                <a
+                  class="descrip button quantiles"
+                  href="../quantiles/quantiles.html"
+                >
+                  Quantiles
+                </a>
+              </h4>
+              <h4>
+                <a
+                  class="descrip button skewness"
+                  href="../skewness/skewness.html"
+                >
+                  Skewness
+                </a>
+              </h4>
+              <h4>
+                <a
+                  class="descrip button kurtosis"
+                  href="../kurtosis/kurtosis.html"
+                >
+                  Kurtosis
+                </a>
+              </h4>
+            </div>
+          </div>
+
+          <style>
+            a {
+              cursor: pointer;
+            }
+            /* .inline-flex-container h4{
+                    padding:0 1rem;
+                } */
+            .animation-underline a::before {
+              background-color: var(--main-primary);
+            }
+          </style>
+          <a id="home-button" href="/index.html">
+            <i class="fa-solid fa-house"></i>
+            Statistics Virtual Lab
+          </a>
+        </header>
+      </div>
+
+      <div class="content">
+        <div class="heading">
+          <h2>Skewness</h2>
+        </div>
+
+        <div class="main-content">
+          <div class="left">
+            <div class="data-input-area" id="data-input-area">
+              <label for="numbers">Data: </label>
+              <textarea
+                id="numbers"
+                name="numbers"
+                placeholder="Enter data with space in-between each value
+"
+              ></textarea>
+
+              <label for="frequencies">Frequencies: </label>
+              <textarea
+                id="frequencies"
+                name="frequencies"
+                placeholder="Enter data with space in-between each value"
+              ></textarea>
+              <button id="clear" onclick="clearData();">Clear Data</button>
+              <button id="SkewnessButton" onclick="calculateSkewness();">
+                Calculate
+              </button>
+            </div>
+            <div id="graph-input-area">
+              <h4>Please select what type of graph to plot:</h4>
+              <button
+                type="button"
+                value="tableGraph"
+                onclick="google.charts.setOnLoadCallback(makeTableChart);"
+              >
+                Table
+              </button>
+              <button
+                type="button"
+                value="barGraph"
+                onclick="google.charts.setOnLoadCallback(makeBarChart);
+              "
+              >
+                Bar Graph
+              </button>
+              <button
+                type="button"
+                value="pieGraph"
+                onclick="google.charts.setOnLoadCallback(makePieChart);"
+              >
+                Pie Chart
+              </button>
+              <button
+                type="button"
+                value="barGraph"
+                onclick="google.charts.setOnLoadCallback(makeLineChart);"
+              >
+                Line Graph
+              </button>
+              <!-- <button
+                type="button"
+                value="feqpolyGraph"
+                onclick="google.charts.setOnLoadCallback(makeFeqPolyChart);"
+              >
+                Frequency Polygon
+              </button>
+              <button
+                type="button"
+                value="boxWhiskerGraph"
+                onclick="google.charts.setOnLoadCallback(makeBoxWhiskerChart);"
+              >
+                Box-Whisker Plot
+              </button>
+              <button
+                type="button"
+                value="stemLeafGraph"
+                onclick="google.charts.setOnLoadCallback(makeStemLeafChart);"
+              >
+                Stem-Leaf Plot
+              </button>
+              <button
+                type="button"
+                value="histogramGraph"
+                onclick="google.charts.setOnLoadCallback(makeHistogramChart);"
+              >
+                Histogram
+              </button> -->
+              <button
+                type="button"
+                value="ScatterGraph"
+                onclick="google.charts.setOnLoadCallback(makeScatterChart);"
+              >
+                Scatter Plot
+              </button>
+              <!-- <button
+                type="button"
+                value="freqCruveGraph"
+                onclick="google.charts.setOnLoadCallback(makeFreqCruveChart);"
+              >
+                Frequency Curve
+              </button> -->
+              <button
+                type="button"
+                value="areaGraph"
+                onclick="google.charts.setOnLoadCallback(makeAreaChart);"
+              >
+                Area graph
+              </button>
+              <!-- <button
+                type="button"
+                value="treeGraph"
+                onclick="google.charts.setOnLoadCallback(makeAreaChart);"
+              >
+                Tree graph
+              </button> -->
+            </div>
+            <div id="data-result-area"></div>
+          </div>
+
+          <div class="right">
+            <div id="graph-result-area">
+              <div id="myChart"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-grid-item">
+        <footer>
+          <p>
+            <i class="fa-regular fa-copyright"> </i>
+            <a href="https://www.vlab.co.in/" target="_blank"
+              >Virutal Lab Project
+            </a>
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
