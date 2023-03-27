@@ -68,6 +68,23 @@
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+     {
+      "question": " If a distribution is skewed to the left, then it is?",
+      "answers": {
+        "a": "Negatively skewed",
+        "b": "Positively skewed",
+        "c": "Symmetrically skewed",
+        "d": "Symmetrical"
+      },
+      "explanations": {
+        "a": "Negatively skewed ",
+        "b": "Negatively skewed ",
+        "c": "Negatively skewed ",
+        "d": "Negatively skewed "
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
     }
   ]
 }
