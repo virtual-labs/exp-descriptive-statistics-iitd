@@ -2,37 +2,54 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "The observations X,...,Xn have a mean of 52, a median 52.1, and a standard deviation of 7. Eight percentof the observation are greater than 66%; 7.9% of the observations are below 38. Based on this information, which of the following statements best describes the data ?",
+      "question": "The observations X,...,Xn have a mean of 52, a median 52.1, and a standard deviation of 7. Eight percent of the observation are greater than 66%; 7.9% of the observations are below 38. Based on this information, which of the following statements best describes the data ?",
       "answers": {
         "a": "The distribution has positive skewness",
         "b": "The distribution has negative skewness",
-        "c": "The distribution hjas high kurtosis",
+        "c": "The distribution has high kurtosis",
         "d": "The distribution conforms to a normal distribution"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Data has high kurtosis.",
+        "b": "Data has high kurtosis.",
+        "c": "Data has high kurtosis.",
+        "d": "Data has high kurtosis."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "TIn a week the prices of a bag of rice were 350, 280, 340, 290, 320, 310, 300. The range is?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "60",
+        "b": "80",
+        "c": "70",
+        "d": "100"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Range= max value - minimum value = 70",
+        "b": "Range= max value - minimum value = 70",
+        "c": "Range= max value - minimum value = 70",
+        "d": "Range= max value - minimum value = 70"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": " The mean of 10 observations is 10. All observations are increased by 10%. The mean of the increased observations shall be?",
+      "answers": {
+        "a": "20",
+        "b": "11",
+        "c": "10",
+        "d": "25"
+      },
+      "explanations": {
+        "a": "When the observations are increased by 10%, the mean increases by 10%. The mean = 10, The mean increased by 10% of 10 = 10*10/100 = 1. Therefore, the mean of increased observation shall be 11 ",
+        "b": "When the observations are increased by 10%, the mean increases by 10%. The mean = 10, The mean increased by 10% of 10 = 10*10/100 = 1. Therefore, the mean of increased observation shall be 11 ",
+        "c": "When the observations are increased by 10%, the mean increases by 10%. The mean = 10, The mean increased by 10% of 10 = 10*10/100 = 1. Therefore, the mean of increased observation shall be 11 ",
+        "d": "When the observations are increased by 10%, the mean increases by 10%. The mean = 10, The mean increased by 10% of 10 = 10*10/100 = 1. Therefore, the mean of increased observation shall be 11 "
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
