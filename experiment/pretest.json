@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "The observations X,...,Xn have a mean of 52, a median 52.1, and a standard deviation of 7. Eight percentof the observation are greater than 66%; 7.9% of the observations are below 38. Based on this information, which of the following statements best describes the data ?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The distribution has positive skewness",
+        "b": "The distribution has negative skewness",
+        "c": "The distribution hjas high kurtosis",
+        "d": "The distribution conforms to a normal distribution"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
