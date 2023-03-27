@@ -61,12 +61,29 @@
         "d": "12"
       },
       "explanations": {
-        "a": "The sum of the squared deviations from the mean(X)= <img src="images/Image 27-03-23 at 4.19 PM.jpg"/> = 10",
-        "b": "The sum of the squared deviations from the mean(X)= <img src="images/Image 27-03-23 at 4.19 PM.jpg"/> = 10 ",
-        "c": "The sum of the squared deviations from the mean(X)= <img src="images/Image 27-03-23 at 4.19 PM.jpg"/> = 10 ",
-        "d": "The sum of the squared deviations from the mean(X)= <img src="images/Image 27-03-23 at 4.19 PM.jpg"/> = 10 "
+        "a": "The sum of the squared deviations from the mean(X)= Sum_{1}^{n}[(Xi-mean(X))^2] = 10 ",
+        "b": "The sum of the squared deviations from the mean(X)= Sum_{1}^{n}[(Xi-mean(X))^2] = 10 ",
+        "c": "The sum of the squared deviations from the mean(X)= Sum_{1}^{n}[(Xi-mean(X))^2] = 10 ",
+        "d": "The sum of the squared deviations from the mean(X)= Sum_{1}^{n}[(Xi-mean(X))^2] = 10 "
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+     {
+      "question": " If a distribution is skewed to the left, then it is?",
+      "answers": {
+        "a": "Negatively skewed",
+        "b": "Positively skewed",
+        "c": "Symmetrically skewed",
+        "d": "Symmetrical"
+      },
+      "explanations": {
+        "a": "Negatively skewed ",
+        "b": "Negatively skewed ",
+        "c": "Negatively skewed ",
+        "d": "Negatively skewed "
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
