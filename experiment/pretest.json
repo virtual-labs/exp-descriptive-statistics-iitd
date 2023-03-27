@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "TIn a week the prices of a bag of rice were 350, 280, 340, 290, 320, 310, 300. The range is?",
+      "question": "In a week the prices of a bag of rice were 350, 280, 340, 290, 320, 310, 300. The range is?",
       "answers": {
         "a": "60",
         "b": "80",
@@ -50,6 +50,23 @@
         "d": "When the observations are increased by 10%, the mean increases by 10%. The mean = 10, The mean increased by 10% of 10 = 10*10/100 = 1. Therefore, the mean of increased observation shall be 11 "
       },
       "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+        {
+      "question": " If mean(x) is 4 and the distribution is 2, 3, 4, 5, 6, the sum of squared deviations from the mean(x) will be?",
+      "answers": {
+        "a": "8",
+        "b": "6",
+        "c": "10",
+        "d": "12"
+      },
+      "explanations": {
+        "a": "The sum of the squared deviations from the mean(X)= <img src="images/Image 27-03-23 at 4.19 PM.jpg"/> = 10",
+        "b": "The sum of the squared deviations from the mean(X)= <img src="images/Image 27-03-23 at 4.19 PM.jpg"/> = 10 ",
+        "c": "The sum of the squared deviations from the mean(X)= <img src="images/Image 27-03-23 at 4.19 PM.jpg"/> = 10 ",
+        "d": "The sum of the squared deviations from the mean(X)= <img src="images/Image 27-03-23 at 4.19 PM.jpg"/> = 10 "
+      },
+      "correctAnswer": "c",
       "difficulty": "beginner"
     }
   ]
