@@ -61,12 +61,12 @@
         "d": "12"
       },
       "explanations": {
-        "a": "The sum of the squared deviations from the mean(X)= ",
-        "b": "When the observations are increased by 10%, the mean increases by 10%. The mean = 10, The mean increased by 10% of 10 = 10*10/100 = 1. Therefore, the mean of increased observation shall be 11 ",
-        "c": "When the observations are increased by 10%, the mean increases by 10%. The mean = 10, The mean increased by 10% of 10 = 10*10/100 = 1. Therefore, the mean of increased observation shall be 11 ",
-        "d": "When the observations are increased by 10%, the mean increases by 10%. The mean = 10, The mean increased by 10% of 10 = 10*10/100 = 1. Therefore, the mean of increased observation shall be 11 "
+        "a": "The sum of the squared deviations from the mean(X)= <img src="images/Image 27-03-23 at 4.19 PM.jpg"/> = 10",
+        "b": "The sum of the squared deviations from the mean(X)= <img src="images/Image 27-03-23 at 4.19 PM.jpg"/> = 10 ",
+        "c": "The sum of the squared deviations from the mean(X)= <img src="images/Image 27-03-23 at 4.19 PM.jpg"/> = 10 ",
+        "d": "The sum of the squared deviations from the mean(X)= <img src="images/Image 27-03-23 at 4.19 PM.jpg"/> = 10 "
       },
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     }
   ]
