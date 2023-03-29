@@ -2636,6 +2636,12 @@ function sanitizeData()
     alert("number of data and freqencies don't match");
   }
 
+  // check and alert if the inputed numbers is not a number
+   if(dataArray.some(i => isNaN(i)) || freqArray.some(i => isNaN(i))){
+    alert("please input numbers only");
+  }
+
+
   else{
     for(let k = 0; k < dataArray.length ; k++)
     {
