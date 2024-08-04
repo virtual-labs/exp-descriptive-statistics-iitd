@@ -53,7 +53,7 @@
       "difficulty": "beginner"
     },
         {
-      "question": " If mean(x) is 4 and the distribution is 2, 3, 4, 5, 6, the sum of squared deviations from the mean(x) will be?",
+      "question": " If the mean (x) is 4 and the data points are 2, 3, 4, 5, and 6, what will be the sum of the squared deviations from the mean (x)?",
       "answers": {
         "a": "8",
         "b": "6",
