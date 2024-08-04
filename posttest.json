@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Luke counts the number of gummy bears he eats every day for 1 week: {39, 18, 24, 51, 40, 15, 23}. On average, how many gummy bears does Luke eat each day?",
+      "answers": {
+        "a": "30",
+        "b": "40",
+        "c": "45",
+        "d": "10"
+      },
+      "explanations": {
+        "a": "average=(39+18+24+51+40+15+23)/7=30.",
+        "b": "average=(39+18+24+51+40+15+23)/7=30.",
+        "c": "average=(39+18+24+51+40+15+23)/7=30.",
+        "d": "average=(39+18+24+51+40+15+23)/7=30."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Consider this data set: {1,3,4,6,6,7,7,7,9,10}. Order the mean, median, mode, and midrange of the data set from least to greatest.?",
+      "answers": {
+        "a": " mean, Midrange, median, mode",
+        "b": "Midrange, mean, mode, median",
+        "c": "Midrange,median, mean, mode",
+        "d": "Midrange, mean, median, mode"
+      },
+      "explanations": {
+        "a": "The median of a data set with an even number of elements is the arithmetic mean of the two elements that fall in the middle when the elements are arranged in ascending order. These two elements ar 6 and 7, so the median is (6+72)/2=6.5. mean= 6, The mode of the data set is the element which occurs the most frequently. Since 7 appears three times, 6 appears twice, and all other elements appear once, the mode is 7. The midrange of the data set is the arithmetic mean of the least and greatest elements. These two elements are 1 and 10, so the midrange is 1+102=5.5. Hence, option d ",
+        "b": "The median of a data set with an even number of elements is the arithmetic mean of the two elements that fall in the middle when the elements are arranged in ascending order. These two elements ar 6 and 7, so the median is (6+72)/2=6.5. mean= 6, The mode of the data set is the element which occurs the most frequently. Since 7 appears three times, 6 appears twice, and all other elements appear once, the mode is 7. The midrange of the data set is the arithmetic mean of the least and greatest elements. These two elements are 1 and 10, so the midrange is 1+102=5.5. Hence, option d",
+        "c": "The median of a data set with an even number of elements is the arithmetic mean of the two elements that fall in the middle when the elements are arranged in ascending order. These two elements ar 6 and 7, so the median is (6+72)/2=6.5. mean= 6, The mode of the data set is the element which occurs the most frequently. Since 7 appears three times, 6 appears twice, and all other elements appear once, the mode is 7. The midrange of the data set is the arithmetic mean of the least and greatest elements. These two elements are 1 and 10, so the midrange is 1+102=5.5. Hence, option d",
+        "d": "The median of a data set with an even number of elements is the arithmetic mean of the two elements that fall in the middle when the elements are arranged in ascending order. These two elements ar 6 and 7, so the median is (6+72)/2=6.5. mean= 6, The mode of the data set is the element which occurs the most frequently. Since 7 appears three times, 6 appears twice, and all other elements appear once, the mode is 7. The midrange of the data set is the arithmetic mean of the least and greatest elements. These two elements are 1 and 10, so the midrange is 1+102=5.5. Hence, option d"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the median of the following numbers? 1/2,1/3,1/4,1/5,1/6,1/7?",
+      "answers": {
+        "a": "1/4",
+        "b": "9/40",
+        "c": "1/5",
+        "d": "2/9"
+      },
+      "explanations": {
+        "a": "The median of a data set with an even number of elements is the mean of its two middle elements, when ranked. The set is already ranked, so just find the mean of middle elements 1/4 and 1/5: 1/2⋅(5/20+4/20) = 9/40.",
+        "b": "The median of a data set with an even number of elements is the mean of its two middle elements, when ranked. The set is already ranked, so just find the mean of middle elements 1/4 and 1/5: 1/2⋅(5/20+4/20) = 9/40.",
+        "c": "The median of a data set with an even number of elements is the mean of its two middle elements, when ranked. The set is already ranked, so just find the mean of middle elements 1/4 and 1/5: 1/2⋅(5/20+4/20) = 9/40.",
+        "d": "The median of a data set with an even number of elements is the mean of its two middle elements, when ranked. The set is already ranked, so just find the mean of middle elements 1/4 and 1/5: 1/2⋅(5/20+4/20) = 9/40."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+      {
+      "question": "Rita keeps track of the number of times she goes to the gym each week for 1260 weeks.  She goes 1 day a week for 119 weeks, 2 days a week for 254 weeks, 3 days a week for 376 weeks, and 4 days a week for 511 weeks.  What is the mode of the number of days she goes to the gym each week?",
+      "answers": {
+        "a": "30",
+        "b": "10",
+        "c": "5",
+        "d": "4 "
+      },
+      "explanations": {
+        "a": "The mode is the number that comes up most frequently in a set.  Rita goes to the gym 4 times a week for 511 weeks.  She clearly goes 4 times per week far more often than she goes 1, 2, or 3 times per week.  Therefore the mode is 4 days/week.  It is NOT 511 weeks.  That is the frequency with which 4 days/week occurs, but not the mode.",
+        "b": "The mode is the number that comes up most frequently in a set.  Rita goes to the gym 4 times a week for 511 weeks.  She clearly goes 4 times per week far more often than she goes 1, 2, or 3 times per week.  Therefore the mode is 4 days/week.  It is NOT 511 weeks.  That is the frequency with which 4 days/week occurs, but not the mode.",
+        "c": "The mode is the number that comes up most frequently in a set.  Rita goes to the gym 4 times a week for 511 weeks.  She clearly goes 4 times per week far more often than she goes 1, 2, or 3 times per week.  Therefore the mode is 4 days/week.  It is NOT 511 weeks.  That is the frequency with which 4 days/week occurs, but not the mode.",
+        "d": "The mode is the number that comes up most frequently in a set.  Rita goes to the gym 4 times a week for 511 weeks.  She clearly goes 4 times per week far more often than she goes 1, 2, or 3 times per week.  Therefore the mode is 4 days/week.  It is NOT 511 weeks.  That is the frequency with which 4 days/week occurs, but not the mode."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+       {
+      "question": "A biosphere reserve contains 280 trees. Trees were chosen at random, and their heights were recorded in cm: 51, 46, 79, 38, and 57. Calculate their height's standard deviation.?",
+      "answers": {
+        "a": "15.51",
+        "b": "13.31",
+        "c": "17",
+        "d": "10"
+      },
+      "explanations": {
+        "a": "Number of observations = 5, mean = 54.2 cm. therefore sd = 15.51. ",
+        "b": "Number of observations = 5, mean = 54.2 cm. therefore sd = 15.51.",
+        "c": "Number of observations = 5, mean = 54.2 cm. therefore sd = 15.51.",
+        "d": "Number of observations = 5, mean = 54.2 cm. therefore sd = 15.51."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}

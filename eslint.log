@@ -1,0 +1,63 @@
+
+/home/runner/work/exp-descriptive-statistics-iitd/exp-descriptive-statistics-iitd/experiment/simulation/Experiments/Descriptive/script.js
+   54:10  warning  'getFlatData' is defined but never used          no-unused-vars
+  119:1   warning  'google' is not defined                          no-undef
+  121:10  warning  'makeLineChart' is defined but never used        no-unused-vars
+  134:18  warning  'google' is not defined                          no-undef
+  158:19  warning  'google' is not defined                          no-undef
+  171:10  warning  'makePieChart' is defined but never used         no-unused-vars
+  183:18  warning  'google' is not defined                          no-undef
+  205:19  warning  'google' is not defined                          no-undef
+  217:10  warning  'makeBarChart' is defined but never used         no-unused-vars
+  229:18  warning  'google' is not defined                          no-undef
+  250:19  warning  'google' is not defined                          no-undef
+  262:10  warning  'makeScatterChart' is defined but never used     no-unused-vars
+  274:18  warning  'google' is not defined                          no-undef
+  296:19  warning  'google' is not defined                          no-undef
+  314:10  warning  'makeAreaChart' is defined but never used        no-unused-vars
+  326:18  warning  'google' is not defined                          no-undef
+  347:19  warning  'google' is not defined                          no-undef
+  355:1   warning  'google' is not defined                          no-undef
+  357:10  warning  'makeBoxWhiskerChart' is defined but never used  no-unused-vars
+  372:14  warning  'google' is not defined                          no-undef
+  381:19  warning  'google' is not defined                          no-undef
+  398:1   warning  'google' is not defined                          no-undef
+  400:10  warning  'makeTableChart' is defined but never used       no-unused-vars
+  404:18  warning  'google' is not defined                          no-undef
+  428:19  warning  'google' is not defined                          no-undef
+
+/home/runner/work/exp-descriptive-statistics-iitd/exp-descriptive-statistics-iitd/experiment/simulation/Scripts/stats.js
+   181:13  warning  Unexpected negating the left operand of 'in' operator  no-unsafe-negation
+   511:18  warning  'D' is already defined                                 no-redeclare
+   713:20  warning  'X' is already defined                                 no-redeclare
+   725:20  warning  'X' is already defined                                 no-redeclare
+   747:7   warning  'module' is not defined                                no-undef
+   748:8   warning  'exports' is not defined                               no-undef
+   748:18  warning  'module' is not defined                                no-undef
+   749:6   warning  'exports' is not defined                               no-undef
+   992:16  warning  'h' is already defined                                 no-redeclare
+  1505:14  warning  'I' is already defined                                 no-redeclare
+  1629:16  warning  'W' is already defined                                 no-redeclare
+  1707:7   warning  'T' is assigned a value but never used                 no-unused-vars
+  1833:10  warning  'h' is assigned a value but never used                 no-unused-vars
+  2171:7   warning  'M' is assigned a value but never used                 no-unused-vars
+  2213:9   warning  'h' is assigned a value but never used                 no-unused-vars
+  2218:11  warning  'independentValue' is not defined                      no-undef
+  2325:16  warning  'V' is already defined                                 no-redeclare
+  2441:9   warning  'h' is assigned a value but never used                 no-unused-vars
+  2547:10  warning  'clearData' is defined but never used                  no-unused-vars
+  2623:36  warning  Unnecessary semicolon                                  no-extra-semi
+  2628:36  warning  Unnecessary semicolon                                  no-extra-semi
+  2671:10  warning  'calculateMean' is defined but never used              no-unused-vars
+  2703:12  warning  'calculateMedian' is defined but never used            no-unused-vars
+  2735:12  warning  'calculateMode' is defined but never used              no-unused-vars
+  2768:12  warning  'calculateRange' is defined but never used             no-unused-vars
+  2801:12  warning  'calculateKurtosis' is defined but never used          no-unused-vars
+  2834:12  warning  'calculateSkewness' is defined but never used          no-unused-vars
+  2867:12  warning  'calculateQuantiles' is defined but never used         no-unused-vars
+  2891:9   warning  'quantile4' is assigned a value but never used         no-unused-vars
+  2902:12  warning  'generateTableRows' is defined but never used          no-unused-vars
+
+✖ 55 problems (0 errors, 55 warnings)
+  0 errors and 2 warnings potentially fixable with the `--fix` option.
+
